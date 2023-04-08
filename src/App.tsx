@@ -4,21 +4,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="m-20">
+      <h1 className="mb-10 text-xl font-bold">これはタイトルです。</h1>
+      <p className="mb-10 text-gray-500">
+        これは本文です。<br />
+        今日の天気は晴れです。<br />
+        昨日の天気は雨でした。<br />
+        一昨日の天気は雷でした。<br />
+        明日の天気は曇りの予報です。
+      </p>
+      <button className="px-6 py-2 bg-green-300">OK</button>
     </div>
   );
 }
